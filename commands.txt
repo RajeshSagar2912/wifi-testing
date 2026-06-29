@@ -1,0 +1,5 @@
+windows cmd prompt commands:
+
+List saved Wi‑Fi profiles on your machine
+
+netsh wlan show profiles
