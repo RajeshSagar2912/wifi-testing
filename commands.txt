@@ -1,5 +1,9 @@
 windows cmd prompt commands:
 
-List saved Wi‑Fi profiles on your machine
+1) List saved Wi‑Fi profiles on your machine
 
 $ netsh wlan show profiles
+
+2) List all wireless networks in range, Shows SSIDs, signal strength, and BSSID (MAC address of each access point).
+
+$ netsh wlan show networks mode=bssid
