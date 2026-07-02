@@ -1,7 +1,7 @@
 # --> Wifi-Pentesting
 This repo will contains all my wifi pentesting useful concepts and commands
 
-# --> concepts
+# --> Basic Concepts
 
 ## 1) SSID: Service Set Identifier
 
@@ -24,3 +24,16 @@ When you connect to "SchoolNet", your device automatically chooses the router (B
 So:
 SSID = Wi-Fi network name (SchoolNet)
 BSSID = Unique router ID (like classroom router #1, #2, etc.)
+
+## 3) EAPOL: Extensible Authentication Protocol over LAN
+
+It’s a protocol used in WPA/WPA2 authentication between a client (station) and an access point (AP).
+When a device connects to Wi‑Fi, the AP and client exchange EAPOL packets to prove they both know the secret key (PSK or enterprise credentials).
+If you capture those EAPOL packets, you can test whether the pre‑shared key (PSK) is weak.
+Tools like aircrack-ng use the handshake to verify guesses from a wordlist against the real key.
+Without EAPOL packets, you can’t crack WPA2‑PSK — that’s why your earlier attempt failed.
+
+## IMP NOTE:
+
+### WPA2‑PSK networks → handshake cracking is possible.
+### WPA2‑Enterprise networks (eduroam, ISB‑PGP, ISB‑WIFI, ISB‑YL) → they use username/password with RADIUS. You’ll still see EAPOL, but it’s not a PSK you can brute force with rockyou.txt. Testing here is about certificate validation and weak EAP methods, not handshake cracking.
