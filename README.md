@@ -1,5 +1,5 @@
 # --> Wifi-Pentesting
-This repo will contains all my wifi pentesting useful commands
+This repo will contains all my wifi pentesting useful concepts and commands
 
 # --> concepts
 
