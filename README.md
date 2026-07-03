@@ -1,5 +1,5 @@
 # --> Wifi-Pentesting
-This repo will contains all my wifi pentesting useful concepts and commands
+This repo will contains all my wifi pentesting useful concepts and commands. Here are the various kinds of attacks that can be performed while doing wifi pentesting: https://github.com/D3Ext/WEF/wiki/Attacks 
 
 # --> Basic Concepts
 
@@ -32,6 +32,12 @@ When a device connects to Wi‑Fi, the AP and client exchange EAPOL packets to p
 If you capture those EAPOL packets, you can test whether the pre‑shared key (PSK) is weak.
 Tools like aircrack-ng use the handshake to verify guesses from a wordlist against the real key.
 Without EAPOL packets, you can’t crack WPA2‑PSK — that’s why your earlier attempt failed.
+
+## 4) PSK: Pre‑Shared Key
+
+It’s the most common Wi‑Fi authentication method for home and small business networks.
+Everyone connects using the same password (the “Wi‑Fi key”).
+Example: when you join a Wi‑Fi and type in a password like guest123, that’s PSK
 
 ## IMP NOTE:
 
