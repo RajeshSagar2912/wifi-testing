@@ -1,5 +1,7 @@
 # --> Wifi-Pentesting
-This repo will contains all my wifi pentesting useful concepts and commands. Here are the various kinds of attacks that can be performed while doing wifi pentesting: https://github.com/D3Ext/WEF/wiki/Attacks 
+This repo will contains all my wifi pentesting useful concepts and commands. 
+The best blogs on internet to learn wifi pentesting: https://www.hackingarticles.in/category/wireless-penetration-testing/
+Here are the various kinds of attacks that can be performed while doing wifi pentesting: https://github.com/D3Ext/WEF/wiki/Attacks 
 
 # --> Basic Concepts
 
