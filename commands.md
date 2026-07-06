@@ -1,13 +1,15 @@
-# windows cmd prompt commands:
+# Single tool for conducting entire wifi Pentesting: https://github.com/D3Ext/WEF
 
-## 1) List saved Wi‑Fi profiles on your machine
+# --> windows cmd prompt commands:
+
+### 1) List saved Wi‑Fi profiles on your machine
 
 $ netsh wlan show profiles
 
-## 2) List all wireless networks in range, Shows SSIDs, signal strength, and BSSID (MAC address of each access point).
+### 2) List all wireless networks in range, Shows SSIDs, signal strength, and BSSID (MAC address of each access point).
 
 $ netsh wlan show networks mode=bssid
 
-## 3) this command will give all the networks which are in wifi 4 interace. In my laptop i have wifi 2 and wifi 4. Some other may have wifi 6 also
+### 3) this command will give all the networks which are in wifi 4 interace. In my laptop i have wifi 2 and wifi 4. Some other may have wifi 6 also
 
 $ netsh wlan show networks interface="Wi-Fi 4" mode=ssid
