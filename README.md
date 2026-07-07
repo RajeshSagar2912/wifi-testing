@@ -1,5 +1,5 @@
 # --> Wifi-Pentesting
-This repo will contains all my wifi pentesting useful concepts and commands.
+This repo will contains all wifi pentesting useful concepts and commands.
 
 The best blogs on internet to learn wifi pentesting: https://www.hackingarticles.in/category/wireless-penetration-testing/
 
