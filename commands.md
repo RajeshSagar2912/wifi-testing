@@ -8,7 +8,7 @@
 
 **Phase 2**: WPA2-Enterprise SSIDs (Harder)
 
-# --> windows cmd prompt commands ( Good for RECON & Intial Discovery ):
+# --> windows cmd prompt commands ( Good for RECON & Intial Discovery )
 
 ### 1) List saved Wi‑Fi profiles on your machine
 
@@ -37,6 +37,8 @@ $ netsh wlan show networks interface="Wi-Fi 4" mode=ssid
 ### 1) checking the connection
 
 $ **iwconfig**
+
+Output: 
 
 lo        no wireless extensions.
 
@@ -107,6 +109,8 @@ why this command:
 **Client activity**: You can see which devices are connecting to that AP, their MAC addresses, and traffic counts.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## WEF framework can do all these attacks, just for knowledge sake see these commands:
 
 ## --> First attack : capture 4‑way handshakes and test password strength (dictionary/brute force)
 
