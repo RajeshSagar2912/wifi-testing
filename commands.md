@@ -22,6 +22,7 @@ $ netsh wlan show networks mode=bssid
 
 $ netsh wlan show networks interface="Wi-Fi 4" mode=ssid
 
+### 4) Do host discovery using nmap. All the devices in my network and probing top 100 ports on those devices.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Basic Requirements:
