@@ -12,15 +12,15 @@
 
 ### 1) List saved Wi‑Fi profiles on your machine
 
-$ netsh wlan show profiles
+netsh wlan show profiles
 
 ### 2) List all wireless networks in range, Shows SSIDs, signal strength, and BSSID (MAC address of each access point).
 
-$ netsh wlan show networks mode=bssid
+netsh wlan show networks mode=bssid
 
 ### 3) This command will give all the networks which are in wifi 4 interace. In my laptop i have wifi 2 and wifi 4. Some other may have wifi 6 also
 
-$ netsh wlan show networks interface="Wi-Fi 4" mode=ssid
+netsh wlan show networks interface="Wi-Fi 4" mode=ssid
 
 ### 4) Do host discovery using nmap. All the devices in my network and probing top 100 ports on those devices.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -38,14 +38,14 @@ $ netsh wlan show networks interface="Wi-Fi 4" mode=ssid
 
 <img width="972" height="453" alt="image" src="https://github.com/user-attachments/assets/cd7aa90e-e2de-46c8-85b7-3741a523b573" /> , 
 
-in our case, we need to connect to realtek 802 wlan adaptor
+in our case, we need to connect to **realtek 802 wlan adaptor**
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # --> Kali terminal commands:
 
 ### 1) checking the connection
 
-$ **iwconfig**
+**iwconfig**
 
 Output: 
 
@@ -70,13 +70,13 @@ So the adapter is working, but it’s not yet in monitor mode (the mode needed f
 
 ### 2) Switch to Monitor Mode
 
-$ **sudo ip link set wlan0 down**
+**sudo ip link set wlan0 down**
 
-$ **sudo iwconfig wlan0 mode monitor**
+**sudo iwconfig wlan0 mode monitor**
 
-$ **sudo ip link set wlan0 up**
+**sudo ip link set wlan0 up**
 
-$ **iwconfig**
+**iwconfig**
 
 lo        no wireless extensions.
 
@@ -93,7 +93,7 @@ monitor mode on🔥🔥
 
 ### 3) Passive Discovery: recon
 
-$ **sudo airodump-ng wlan0**
+**sudo airodump-ng wlan0**
 
 This will show:
 
@@ -107,7 +107,7 @@ This will show:
 
 ### 4) Focus on One SSID and further 1 bssid in that ssid .
 
-$ **sudo airodump-ng -c 64 --bssid 1c:fc:17:e5:29:66 -w guest_capture wlan0**
+**sudo airodump-ng -c 64 --bssid 1c:fc:17:e5:29:66 -w guest_capture wlan0**
 
 why this command:
 
