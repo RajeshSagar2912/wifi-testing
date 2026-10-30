@@ -28,11 +28,19 @@ $ netsh wlan show networks interface="Wi-Fi 4" mode=ssid
 ## Basic Requirements:
 
 --> wifi adaptor
+
 --> drives for tp-link wifi adaptor
+
 --> kali vm
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# --> successfully connecting the wifi adaptor is challenging here: 
 
+<img width="972" height="453" alt="image" src="https://github.com/user-attachments/assets/cd7aa90e-e2de-46c8-85b7-3741a523b573" /> , 
+
+in our case, we need to connect to realtek 802 wlan adaptor
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # --> Kali terminal commands:
 
 ### 1) checking the connection
