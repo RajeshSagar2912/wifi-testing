@@ -20,7 +20,9 @@
 
 netsh wlan show networks mode=bssid
 
-### 3) This command will give all the networks which are in wifi 4 interace. In my laptop i have wifi 2 and wifi 4. Some other may have wifi 6 also
+### 3) This command will give all the networks which are in wifi 4 interace. In my laptop i have wifi 2 and wifi 4. Some other may have wifi 6 also.
+
+when you connect your adaptor, you will get wifi-4 interface in your device, orelse you will have only wifi-2 interface
 
 netsh wlan show networks interface="Wi-Fi 4" mode=ssid
 
