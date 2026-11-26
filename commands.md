@@ -12,7 +12,9 @@
 
 ### 1) List saved Wi‑Fi profiles on your machine
 
-netsh wlan show profiles
+• **netsh wlan show interfaces** : shows live details for your active connection, including the SSID, signal strength, link speed, radio type, and authentication.
+
+• **netsh wlan show profiles** : only lists saved Wi-Fi networks your PC has connected to in the past—it doesn't tell you which one you're using right now.
 
 ### 2) List all wireless networks in range, Shows SSIDs, signal strength, and BSSID (MAC address of each access point).
 
