@@ -29,6 +29,13 @@ netsh wlan show networks interface="Wi-Fi 4" mode=ssid
 ### 4) Do host discovery using nmap. All the devices in my network and probing top 100 ports on those devices.
 
 generally: **nmap -sn 172.16.53.0/24**
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Test case 1**: scan for the live hosts and check the ports
+
+**Test case 2**: netsh wlan show networks mode=ssid    - run this command for check for wpa2-personal and we can report them as low
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Basic Requirements:
