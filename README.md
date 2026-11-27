@@ -46,4 +46,26 @@ Example: when you join a Wi‑Fi and type in a password like guest123, that’s 
 ## IMP NOTE:
 
 ### WPA2‑PSK networks → handshake cracking is possible.
-### WPA2‑Enterprise networks (eduroam, ISB‑PGP, ISB‑WIFI, ISB‑YL) → they use username/password with RADIUS. You’ll still see EAPOL, but it’s not a PSK you can brute force with rockyou.txt. Testing here is about certificate validation and weak EAP methods, not handshake cracking.
+### WPA2‑Enterprise networks  → they use username/password with RADIUS. You’ll still see EAPOL, but it’s not a PSK you can brute force with rockyou.txt. Testing here is about certificate validation and weak EAP methods, not handshake cracking.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+5) WPA2-Enterprise (MGT)
+        
+        ↑ Stronger
+
+4) WPA3-SAE
+        
+        ↑ Strong
+
+3) WPA2-PSK + Strong Password
+        
+        ↑ Acceptable
+
+2) WPA2-PSK + Weak Password
+        
+        ↑ Finding
+
+1) WEP
+       
+        ↑ Critical
